@@ -37,7 +37,6 @@ export const GridArea = styled.div`
     flex:1;//espaço disponível
     display:flex;
     justify-content:flex-end;//joga para p lado direito da tela
-    background-color:#FF0000;
 
     @media(max-width:750px){
         justify-content:center;//para que fique no meio
