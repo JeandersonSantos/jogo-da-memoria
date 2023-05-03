@@ -49,5 +49,8 @@ export const Grid =styled.div`
     grid-template-columns: repeat(4,1fr);//4 itens um ao lado do outro
     gap: 10px;//10px entre eles
 
+    @media(max-width:750px){
+        grid-template-columns: repeat(3,1fr);//deixa o grid com 3 colunas
+    }
 `
 
