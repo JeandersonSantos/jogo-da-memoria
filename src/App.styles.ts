@@ -43,3 +43,11 @@ export const GridArea = styled.div`
         margin:0 20px;
     }
 `;
+export const Grid =styled.div`
+    width: 430px;//tamanho fixo
+    display: grid;
+    grid-template-columns: repeat(4,1fr);//4 itens um ao lado do outro
+    gap: 10px;//10px entre eles
+
+`
+
